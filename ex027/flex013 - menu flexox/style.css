@@ -26,14 +26,16 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+   /* border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.406);
 }
 
 header > nav {
-    border: 1px dotted black;
+   /* border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 header > nav > a {
@@ -45,6 +47,7 @@ header > nav > a {
     text-decoration: none;
     text-align: center;
 }
+
 header >nav > a:hover {
     background-color: white;
     color: black;
@@ -57,5 +60,4 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rbga(0, 0 , 0 , 0.336);
-
 }
